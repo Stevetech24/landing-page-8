@@ -456,6 +456,12 @@ hr {
   .hero-section header {
     padding-inline: 100px;
   }
+.hero-img-box img:last-child {
+    padding-inline: 0 16px;
+  }
+.icon-box {
+  gap: 32px;
+}
   .team-section {
     padding-inline: 0;
   }
@@ -464,6 +470,9 @@ hr {
   }
 .limit-left h1 {
   font-size: 3.2rem;
+}
+.get-flex-box {
+  gap: 40px;
 }
 }
 @media (max-width: 979px) {
@@ -475,6 +484,9 @@ hr {
   }
   .hero-section header {
     padding-inline: 50px;
+  }
+.hero-img-box img:last-child {
+    padding-inline: 0 16px;
   }
   .icon-box {
     gap: 32px;
