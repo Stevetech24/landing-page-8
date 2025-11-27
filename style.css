@@ -462,6 +462,9 @@ hr {
   .team-flex-box div {
     padding: 40px;
   }
+.limit-left h1 {
+  font-size: 3.2rem;
+}
 }
 @media (max-width: 979px) {
   html {
